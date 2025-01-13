@@ -4,10 +4,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #05050565;
-  border: 1px solid #ffffff52;
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  background-color: #050505af;
+  border: 1px solid #ffffff52;  
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
   padding: 8px 0;
   border-radius: 50px;
   width: 90%;
@@ -31,6 +31,8 @@ nav {
 .nav-logo-image {
   width: 35px;
   border-radius: 9px;
+  padding: 0;
+  margin: 0;
 }
 
 .separator {
@@ -39,11 +41,17 @@ nav {
   background-color: #ffffff69;
 }
 
-a {
+.nav-link {
+  transition: 150ms color ease;
   font-family: 'Geist';
   color: #BBBBBB;
   font-size: 16px;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #EEEEEE;
 }
 
 .contact {
@@ -56,6 +64,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  font-family: 'Geist';
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .contact i {
