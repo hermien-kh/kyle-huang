@@ -1,0 +1,10 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 72px;
+}
+h1 {
+  color: #f1eedd;
+}
